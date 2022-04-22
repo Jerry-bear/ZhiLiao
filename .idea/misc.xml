@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/bg_dialog.xml" value="0.41333333333333333" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/bottom_layout_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/bottom_select.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/bottom_unselect.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/buttonshapewhitebg.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/dot_red.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/ic_email_white_24dp.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/ic_lock_white_24dp.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/mid_layout_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/mid_select.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/mid_unselect.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/single_layout_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/single_select.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/single_unselect.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/top_layout_selector.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/top_select.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/drawable/top_unselect.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/activity_login.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/activity_main.xml" value="0.19630192502532928" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/activity_start_page.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/dialog_layout.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/fragment_first.xml" value="0.19630192502532928" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/fragment_fix.xml" value="0.19630192502532928" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/fragment_info.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/fragment_qrcode.xml" value="0.4" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/fragment_user.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/goods.xml" value="0.264" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/history_goods.xml" value="0.3523550724637681" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/im_hint.xml" value="0.3804347826086957" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/item.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/layout/view_stick_head.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/menu/bottom_nav_menu.xml" value="0.32407407407407407" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/menu/menu_main.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/menu/nav_menu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/bufanx/AndroidStudioProjects/GZJJ/app/src/main/res/menu/toolbar.xml" value="0.21041666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

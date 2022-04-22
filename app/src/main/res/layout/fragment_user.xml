@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFC107"
+        android:id="@+id/toolbar_fragment_personal"
+        app:title="个人中心"
+        app:titleTextColor="@color/white">
+    </androidx.appcompat.widget.Toolbar>
+    <!--磨砂头像-->
+    <RelativeLayout
+
+        android:layout_below="@+id/toolbar_fragment_personal"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.permissionx.gzjj.pojos.MyImageView
+            android:id="@+id/h_back"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp" />
+
+        <com.permissionx.gzjj.pojos.MyImageView
+            android:id="@+id/h_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/h_back"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/user_line"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/user_line"
+                android:text="张三"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/user_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/user_line"
+                android:text="182****5882"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--子项-->
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/ic_username"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="账号:"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:layout_width="40dp"
+                android:src="@drawable/arrowright"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#090808"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/level"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="会员等级:"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/user_level"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:layout_width="40dp"
+                android:src="@drawable/arrowright"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+
+
+            android:background="#090808"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/e_mail"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="邮箱:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:layout_width="40dp"
+                android:src="@drawable/arrowright"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#090808"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/version"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="版本:"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="V.2.0.1"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:layout_width="40dp"
+                android:src="@drawable/arrowright"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#090808"/>
+        <LinearLayout
+            android:id="@+id/delete_cache"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/delete_cache"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="清除缓存"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#090808"/>
+        <LinearLayout
+            android:id="@+id/log_out"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/logout"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="退出登录"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

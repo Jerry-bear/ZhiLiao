@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_qr_code"
+        android:title="扫码"
+        android:icon="@drawable/ic_qrcode">
+    </item>
+
+    <item
+        android:id="@+id/nav_information"
+        android:title="点餐"
+        android:icon="@drawable/ic_info">
+    </item>
+
+    <item
+        android:id="@+id/nav_fix"
+        android:title="历史订单"
+        android:icon="@drawable/history_order">
+    </item>
+
+    <item
+        android:id="@+id/nav_user"
+        android:title="个人中心"
+        android:icon="@drawable/ic_user">
+    </item>
+</menu>
